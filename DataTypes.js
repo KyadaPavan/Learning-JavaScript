@@ -18,4 +18,18 @@ const obj1 = {
 }
 console.log(obj1["Name"]);
 
+/*
 
+Data types in JavaScript :- 1) Primitive Data Types  2) Non-Primitive Data Types
+
+Primitive Data Types:-
+
+There are 7 Primitive Data Types and that are Null , Number , Boolean , BigInt , String , Symbol , Undefined
+
+
+Non-Primitive data Types:-
+
+Objects in JavaScript are Non-Primitive Data Types. Objects are key value pair in JavaScript.  
+
+
+*/
