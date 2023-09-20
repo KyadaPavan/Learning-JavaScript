@@ -6,7 +6,7 @@ console.log(z);
 
 var a = 1;
 
-const b=5;
+const author="Pavan";
 
 /* There are three ways with which ypu can declare varabial in javascript 
 
