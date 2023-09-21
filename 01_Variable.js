@@ -24,4 +24,6 @@ var a = 1;
 
 const author="Pavan";
 
+console.log(a,author);
+
 
