@@ -34,4 +34,7 @@ const obj1 = {
 }
 console.log(obj1["Name"]);
 
+obj1 ["Branch"] = "IT";
+console.log(obj1);
+
 
