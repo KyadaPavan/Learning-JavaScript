@@ -47,3 +47,22 @@ for(let a in marks){
 for (b of "Pavan"){
     console.log(b)
 }
+// While loop
+
+let a = prompt("Enter any Number of your choice: ");
+a = Number.parseInt(a);
+let c = 0;
+while(c<=a){
+    console.log(c);
+    c++;
+}
+
+// do while loop
+
+console.log("With the hepl of do while loop")
+let d = 0;
+do{
+   console.log(d);
+   d++;
+}
+while(d<=a)
