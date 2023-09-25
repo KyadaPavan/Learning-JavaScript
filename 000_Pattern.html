@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 40px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
 
+    <script>
+
+        // Pattern 1
+
+        document.write("Pattern 1 " + "<br>" );
+
+        for(let i=1 ; i<=5 ; i++){
+            for(let j=1; j<=i ; j++){
+                document.write("*");
+            }
+            document.write("<br>");
+        
+        }
+
+        document.write("Pattern 2 " + "<br>" );
+
+        // Pattern 2
+
+        for(let i=1 ; i<=5 ; i++){
+            for(let j=5; j>=i ; j--){
+                document.write("*");
+            }
+            document.write("<br>");
+        
+        }
+
+        // Patten 3
+
+        document.write("Pattern 3 " + "<br>");
+
+        
+        for(let i=1 ; i<=5 ; i++){
+            for(let k=4; k>=i ; k--){
+                document.write("1")
+            }
+            for(let j=1; j<=i ; j++){
+                document.write("*");
+            }
+            document.write("<br>");
+        
+        }
+        
+        // PAttern 4 
+
+        document.write("Pattern 4 " + "<br>");
+
+        for(let i=1 ; i<=5 ; i++){
+            for(let k=4; k>=i ; k--){
+                document.write("1");
+              
+            }
+            for(let j=1; j<=i ; j++){
+               
+                document.write("*");
+
+            }
+            for(let l=2; l<=i; l++){
+                document.write("*");
+            }
+            document.write("<br>");
+        
+        }
+
+        // PAttern 5 
+
+        document.write("Pattern 5 " + "<br>");
+
+        for(let i=1 ; i<=5 ; i++){  
+            for(let k=2; k<=i ; k++){ 
+                document.write("1");
+              
+            }
+            for(let j=5; j>=i ; j--){ 
+                document.write("*");
+
+            }
+            for(let l=4; l>=i; l--){
+                document.write("*");
+            }
+            document.write("<br>");
+        
+        }
+
+
+
+    </script>
+</body>
+</html>
