@@ -1,13 +1,29 @@
 
-alert("hello, this is an alert")
+let playagain = true;
 
-let a = prompt("Enter value the of a");
+while (playagain) {
+    let a = prompt("Enter your age");
+    a = Number.parseInt(a);
 
+    playagain = confirm("Do you want to play again?");
 
-let Name = confirm("Do you want write the entered number?")
-if(Name){
-    document.write("You enterd the number " + a + ".")
+    if (playagain) {
+        let a = prompt("Enter your age");
+        a = Number.parseInt(a);
+
+        if (a <= 0) {
+            console.error("Please, Enter a valid age.");
+            document.write("Please Enter a valid age.");
+            break;
+        }
+        else if (a < 18) {
+            alert("Sorry! You can't drive");
+        }
+        else {
+            alert("You can drive");
+        }
+
+    }
 }
-else{
-    document.write("Please, allow me to write.")
-}
+
+
