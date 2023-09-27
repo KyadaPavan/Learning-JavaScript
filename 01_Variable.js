@@ -14,7 +14,7 @@ const :- the value stored with the help of const can not be changed. const can n
 
 */
 
-let x = 5;
+let x = 56;
 let y = 6;
 let z = x + y;
 console.log(z);
